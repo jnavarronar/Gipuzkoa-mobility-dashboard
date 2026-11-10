@@ -6,6 +6,8 @@ Interactive web app that analyses public bus efficiency in San Sebastián and ro
 
 🔗 **Live demo:** [gipuzkoa-mobility-dashboard.streamlit.app](https://gipuzkoa-mobility-dashboard.streamlit.app)
 
+![Main page of the dashboard](assets/main-page.png)
+
 ## Key findings
 - **Bus network:** about 38% of stop-to-stop bus segments in San Sebastián run below 15 km/h, a typical urban cycling speed. On those segments, cycling is a realistic and faster alternative.
 - **Road traffic:** traffic across Gipuzkoa's monitoring stations peaks in the afternoon (14:00–19:00). The busiest hour carries over 20 times the traffic of the quietest one (around 04:00).
@@ -18,6 +20,8 @@ Interactive web app that analyses public bus efficiency in San Sebastián and ro
 | **Interactive Map** | Map of all bus stops and routes, plus an hourly heat map of average bus speed per route to locate delays. |
 | **Traffic Networks** | Traffic distribution per station, hourly/weekly/monthly/seasonal patterns, multi-year trends with confidence intervals, and a map of monitoring stations. |
 | **Time Efficiency** | Route recommender: pick a bus route and two stops, and the app compares the segment's average bus speed with a 15 km/h cycling benchmark to suggest bus or bike. |
+
+![Hourly average speed heat map for bus route 5](assets/speed-heatmap.png)
 
 ## Data
 | Dataset | Source | Scale |
