@@ -19,3 +19,7 @@ env/
 
 # CSV and log files (puedes quitar esto si quieres subir tus datos)
 *.log
+
+# Caches and leftovers
+cache/
+*.graphml
